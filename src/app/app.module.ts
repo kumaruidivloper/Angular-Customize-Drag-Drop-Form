@@ -4,10 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MaterialModule } from './material/material.module';
+import { ElementsComponent } from './elements/elements.component';
+import { DisplayComponent } from './display/display.component';
+import { PropertiesComponent } from './properties/properties.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ElementsComponent,
+    DisplayComponent,
+    PropertiesComponent
   ],
   imports: [
     BrowserModule,

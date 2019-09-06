@@ -1,0 +1,10 @@
+ <mat-nav-list>
+    <mat-list-item *ngFor="let link of elementList">
+      <!-- <a matLine [href]="link.link" target="_blank"> -->
+        <!-- <mat-icon [class]="link.CSSClass"></mat-icon> -->
+        <i class="material-icons">{{link.iconClass}}</i>
+        <span class="link-caption">{{ link.caption }}</span>
+      <!-- </a> -->
+      <!-- <h4 matline> {{ link.info }} </h4> -->
+    </mat-list-item>
+  </mat-nav-list>
